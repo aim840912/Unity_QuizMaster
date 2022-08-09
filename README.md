@@ -5,6 +5,11 @@
 UI
 - TextMeshPro
 - Vertical Layout Group
+- Image
+  - Image Type
+    - Filled
+- Slider
+
 
 ## something new to me
 
@@ -15,4 +20,8 @@ public class QuestionSO : ScriptableObject{
     [SerializeField]
     string question = "Enter new question text here";
 }
+```
+
+```csharp
+SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 ```
